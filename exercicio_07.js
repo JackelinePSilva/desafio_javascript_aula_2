@@ -5,11 +5,7 @@ const aluno = {
     notas: [8.8, 9.0, 5.0, 6.7]
 };
 
+//imprimindo nome, cpf e cidade do aluno
 console.log(`Nome: `, aluno.nome);
 console.log(`CPF: `, aluno.cpf);
 console.log(`Cidade: `, aluno.cidade);
-
-
-// FINalizar parte da nota
-
-
