@@ -9,3 +9,16 @@ const aluno = {
 console.log(`Nome: `, aluno.nome);
 console.log(`CPF: `, aluno.cpf);
 console.log(`Cidade: `, aluno.cidade);
+
+
+//imprimr notas
+function imprimirNotas(notas) {
+    notas.forEach((nota, index) => {
+        console.log(`Nota ${index + 1}: ${nota}`);
+    });
+};
+
+// falta finalizar
+
+
+
